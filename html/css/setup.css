@@ -1,0 +1,263 @@
+/* Reset
+=================================================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  word-wrap: break-word;
+}
+
+body {
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: normal;
+}
+
+img, article, aside, details, figcaption, figure, footer, header, main, nav, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  /*	border-collapse: separate; */
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  margin: 0 auto 20px;
+}
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+del {
+  text-decoration: line-through;
+}
+
+* {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Font
+=================================================================================*/
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Link
+=================================================================================*/
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+a img {
+  border: 0;
+}
+
+@media screen and (min-width: 640px) {
+  a:hover, a:active {
+    color: #666;
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+  }
+
+  a:hover img {
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+  }
+
+  a:hover img.swap {
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+  }
+}
+/* Headings
+=================================================================================*/
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+}
+
+hr {
+  background-color: #ddd;
+  border: 0;
+  height: 1px;
+  margin-bottom: 24px;
+}
+
+/* Text Elements
+=================================================================================*/
+/* p, ul { margin-bottom: 15px; }
+p {
+	text-align: justify;
+//	text-justify: inter-ideograph;
+}*/
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1em;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0 0 24px 1em;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+cite {
+  border-bottom: 1px dotted #aaa;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+address {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+pre {
+  background: #eee;
+  font-size: 13px;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 10px;
+  word-wrap: normal;
+}
+
+code, kbd, tt, var {
+  font-size: 13px;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.5ex;
+}
+
+small {
+  font-size: 75%;
+}
+
+big {
+  font-size: 125%;
+}
+
+figure {
+  margin: 0;
+}
+
+caption {
+  color: #666;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+th {
+  font-weight: 700;
+}
+
+/* Media
+=================================================================================*/
+embed, iframe, object, video {
+  max-width: 100%;
+}
+
+/*  img
+=================================================================================*/
+div > img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=setup.css.map */
